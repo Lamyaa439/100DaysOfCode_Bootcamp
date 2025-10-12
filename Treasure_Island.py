@@ -23,7 +23,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 print("You are at a cross road. where do you want to go?")
-way = input("left or right?")
+way = input("left or right?\n")
 if way == "right":
     print("Fall into a hole.\n Game Over.")
 elif way == "left":
@@ -41,8 +41,8 @@ elif way == "left":
        .aa########a.>>                                    __|__
     .a################aa.                                 \   /
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~''')
-    print("You've come to a lake. There is an island in the middle of the lake.")
-    cross = input("Type (wait) to wait for a boat. Type (swim) to swim across. ")
+    print("You've come to a lake.\n There is an island in the middle of the lake.")
+    cross = input("Type (wait) to wait for a boat.\n Type (swim) to swim across.\n ")
     if cross == "swim":
         print("Attacked by trout. Game Over.")
     elif cross == "wait":
@@ -58,8 +58,8 @@ elif way == "left":
                 | |  ||  | |
                 | |__||__| |
                 |__________|''')
-        print("You arrive at the island unharmed. There is a house with 3 doors.")
-        door = input("one red, one yellow and one blue. Which colour do you choose?")
+        print("You arrive at the island unharmed. There is a house with 3 doors.\n")
+        door = input("one red, one yellow and one blue. Which colour do you choose?\n")
         if door == "red":
             print("Burned by fire. Game Over.")
         elif door == "blue":
