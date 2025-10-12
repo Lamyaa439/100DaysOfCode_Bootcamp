@@ -66,6 +66,18 @@ elif way == "left":
             print("Eaten by beasts. Game Over.")
         elif door == "yellow":
             print("You found the treasure. You Win !")
+            print('''
+   .-'"'-.
+   / #     \
+  : #       :  .-'"'-.
+   \       /  / #     \
+    \     /  : #       :
+jgs  `'q'`    \       /
+       (       \     /
+        )       `'p'`
+       (          )
+        )        (
+                  )''')
         else:
             print("You chose a door that doesn't exist. Game Over.")
     else:
